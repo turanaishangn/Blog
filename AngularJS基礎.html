@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>AngularJS基礎 | TURANAISHANGN</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/Blog/favicon.ico">
+    <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css">
+    <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+    <script language="javascript" type="text/javascript" src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/Blog/js/MouseClickEffect.js"></script>
+    <meta name="description" content="洪煜皓喜欢桃乃木香奈">
+    <meta name="author" content="JOY">
+    <meta name="keywords" content="vuepress 学习,博客搭建,JOY">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/Blog/assets/css/0.styles.245241ee.css" as="style"><link rel="preload" href="/Blog/assets/js/app.1db4b153.js" as="script"><link rel="preload" href="/Blog/assets/js/3.cdf51567.js" as="script"><link rel="preload" href="/Blog/assets/js/1.a1e88624.js" as="script"><link rel="preload" href="/Blog/assets/js/10.84400642.js" as="script"><link rel="prefetch" href="/Blog/assets/js/11.8b2e407f.js"><link rel="prefetch" href="/Blog/assets/js/12.5dcc3fc4.js"><link rel="prefetch" href="/Blog/assets/js/13.0843c72f.js"><link rel="prefetch" href="/Blog/assets/js/14.e3b4aaa5.js"><link rel="prefetch" href="/Blog/assets/js/15.012e096d.js"><link rel="prefetch" href="/Blog/assets/js/16.d83ae634.js"><link rel="prefetch" href="/Blog/assets/js/17.58fc0cca.js"><link rel="prefetch" href="/Blog/assets/js/18.7e852578.js"><link rel="prefetch" href="/Blog/assets/js/19.449ac7bb.js"><link rel="prefetch" href="/Blog/assets/js/20.7b544283.js"><link rel="prefetch" href="/Blog/assets/js/21.999d0f20.js"><link rel="prefetch" href="/Blog/assets/js/22.2af6d85b.js"><link rel="prefetch" href="/Blog/assets/js/23.b4ce01c7.js"><link rel="prefetch" href="/Blog/assets/js/24.c9119528.js"><link rel="prefetch" href="/Blog/assets/js/25.2c9f7fb4.js"><link rel="prefetch" href="/Blog/assets/js/4.5a5d55b2.js"><link rel="prefetch" href="/Blog/assets/js/5.e67c8d38.js"><link rel="prefetch" href="/Blog/assets/js/6.e4ff8b95.js"><link rel="prefetch" href="/Blog/assets/js/7.441b7204.js"><link rel="prefetch" href="/Blog/assets/js/8.ad8009e6.js"><link rel="prefetch" href="/Blog/assets/js/9.2da0fc1c.js">
+    <link rel="stylesheet" href="/Blog/assets/css/0.styles.245241ee.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar" data-v-5bb33761><div data-v-5bb33761><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-5bb33761 data-v-5bb33761><h3 class="title" data-v-59e6cb88>TURANAISHANGN</h3> <p class="description" data-v-59e6cb88>洪煜皓喜欢桃乃木香奈</p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>turanaishangn</span>
+          
+        <!---->
+        2022
+      </a></span></div></div> <div class="hide" data-v-5bb33761><header class="navbar" data-v-5bb33761><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/Blog/" class="home-link router-link-active"><img src="/Blog/assets/img/hero.jpg" alt="TURANAISHANGN" class="logo"> <span class="site-name">TURANAISHANGN</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/Blog/" class="nav-link"><i class="undefined"></i>
+  Home
+</a></div><div class="nav-item"><a href="/Blog/about.html" class="nav-link"><i class="undefined"></i>
+  About
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      我的大前端
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Blog/Flex佈局.html" class="nav-link"><i class="undefined"></i>
+  Flex佈局
+</a></li><li class="dropdown-item"><!----> <a href="/Blog/jQuery.html" class="nav-link"><i class="undefined"></i>
+  jQuery
+</a></li><li class="dropdown-item"><!----> <a href="/Blog/中后台管理模板.html" class="nav-link"><i class="undefined"></i>
+  中后台管理模板
+</a></li><li class="dropdown-item"><!----> <a href="/Blog/实用的网站合集.html" class="nav-link"><i class="undefined"></i>
+  实用的网站合集
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      VUE
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Blog/vue核心.html" class="nav-link"><i class="undefined"></i>
+  vue核心
+</a></li><li class="dropdown-item"><!----> <a href="/Blog/Vue组件化编程.html" class="nav-link"><i class="undefined"></i>
+  Vue组件化编程
+</a></li><li class="dropdown-item"><!----> <a href="/Blog/Vue脚手架.html" class="nav-link"><i class="undefined"></i>
+  Vue脚手架
+</a></li><li class="dropdown-item"><!----> <a href="/Blog/AxiosAndSlot.html" class="nav-link"><i class="undefined"></i>
+  AxiosAndSlot
+</a></li><li class="dropdown-item"><!----> <a href="/Blog/VuexAndRouter.html" class="nav-link"><i class="undefined"></i>
+  VuexAndRouter
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      AngularJS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Blog/AngularJS基礎.html" class="nav-link"><i class="undefined"></i>
+  AngularJS基礎
+</a></li><li class="dropdown-item"><!----> <a href="/Blog/AngularJS組件化開發.html" class="nav-link"><i class="undefined"></i>
+  AngularJS組件化開發
+</a></li></ul></div></div><div class="nav-item"><a href="/Blog/test.html" class="nav-link"><i class="undefined"></i>
+  记仇小本本
+</a></div><div class="nav-item"><a href="/Blog/git.html" class="nav-link"><i class="undefined"></i>
+  git
+</a></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-5bb33761></div> <aside class="sidebar" data-v-5bb33761><div class="personal-info-wrapper" data-v-1fad0c41 data-v-5bb33761><img src="/Blog/assets/img/hero.jpg" alt="author-avatar" class="personal-img" data-v-1fad0c41> <h3 class="name" data-v-1fad0c41>
+    turanaishangn
+  </h3> <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>15</h3> <h6 data-v-1fad0c41>文章</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>11</h3> <h6 data-v-1fad0c41>标签</h6></div></div> <ul class="social-links" data-v-1fad0c41></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><a href="/Blog/" class="nav-link"><i class="undefined"></i>
+  Home
+</a></div><div class="nav-item"><a href="/Blog/about.html" class="nav-link"><i class="undefined"></i>
+  About
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      我的大前端
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Blog/Flex佈局.html" class="nav-link"><i class="undefined"></i>
+  Flex佈局
+</a></li><li class="dropdown-item"><!----> <a href="/Blog/jQuery.html" class="nav-link"><i class="undefined"></i>
+  jQuery
+</a></li><li class="dropdown-item"><!----> <a href="/Blog/中后台管理模板.html" class="nav-link"><i class="undefined"></i>
+  中后台管理模板
+</a></li><li class="dropdown-item"><!----> <a href="/Blog/实用的网站合集.html" class="nav-link"><i class="undefined"></i>
+  实用的网站合集
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      VUE
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Blog/vue核心.html" class="nav-link"><i class="undefined"></i>
+  vue核心
+</a></li><li class="dropdown-item"><!----> <a href="/Blog/Vue组件化编程.html" class="nav-link"><i class="undefined"></i>
+  Vue组件化编程
+</a></li><li class="dropdown-item"><!----> <a href="/Blog/Vue脚手架.html" class="nav-link"><i class="undefined"></i>
+  Vue脚手架
+</a></li><li class="dropdown-item"><!----> <a href="/Blog/AxiosAndSlot.html" class="nav-link"><i class="undefined"></i>
+  AxiosAndSlot
+</a></li><li class="dropdown-item"><!----> <a href="/Blog/VuexAndRouter.html" class="nav-link"><i class="undefined"></i>
+  VuexAndRouter
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      AngularJS
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Blog/AngularJS基礎.html" class="nav-link"><i class="undefined"></i>
+  AngularJS基礎
+</a></li><li class="dropdown-item"><!----> <a href="/Blog/AngularJS組件化開發.html" class="nav-link"><i class="undefined"></i>
+  AngularJS組件化開發
+</a></li></ul></div></div><div class="nav-item"><a href="/Blog/test.html" class="nav-link"><i class="undefined"></i>
+  记仇小本本
+</a></div><div class="nav-item"><a href="/Blog/git.html" class="nav-link"><i class="undefined"></i>
+  git
+</a></div> <!----></nav> <!----> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-5bb33761><h3 class="title" data-v-59e6cb88>AngularJS基礎</h3> <!----> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>turanaishangn</span>
+          
+        <!---->
+        2022
+      </a></span></div></div> <div data-v-5bb33761><div data-v-5bb33761><main class="page"><section style="display:;"><div class="page-title"><h1 class="title">AngularJS基礎</h1> <div data-v-8a445198><i class="iconfont reco-account" data-v-8a445198><span data-v-8a445198>turanaishangn</span></i> <!----> <!----> <i class="tags iconfont reco-tag" data-v-8a445198><span class="tag-item" data-v-8a445198>angular</span><span class="tag-item" data-v-8a445198>js</span></i></div></div> <div class="theme-reco-content content__default"><h2 id="模板"><a href="#模板" class="header-anchor">#</a> 模板</h2> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">ng-app</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>myApp<span class="token punctuation">&quot;</span></span> <span class="token attr-name">ng-controller</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>myCtrl<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span> 姓名:<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h3</span><span class="token punctuation">&gt;</span></span>{{name}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h3</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">var</span> app <span class="token operator">=</span> angular<span class="token punctuation">.</span><span class="token function">module</span><span class="token punctuation">(</span><span class="token string">'myApp'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+app<span class="token punctuation">.</span><span class="token function">controller</span><span class="token punctuation">(</span><span class="token string">'myCtrl'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">$scope</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    $scope<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">&quot;郝佳瑤&quot;</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h2 id="常用指令"><a href="#常用指令" class="header-anchor">#</a> 常用指令</h2> <p><strong>ng-app</strong> 指令初始化一个 AngularJS 应用程序。
+<strong>ng-init</strong> 指令初始化应用程序数据。
+**ng-bind **指令把应用程序数据绑定到 HTML 视图。
+<strong>ng-model</strong> 指令把元素值（比如输入域的值）绑定到应用程序。
+<strong>ng-repeat</strong> 指令对于集合中（数组中）的每个项会 <strong>克隆一次 HTML 元素</strong>。
+<strong>ng-controller</strong> 指令定义了应用程序控制器。
+<strong>ng-option</strong> 指令来创建一个下拉列表，列表项通过对象和数组循环输出。
+<strong>ng-disabled</strong> 指令直接绑定应用程序数据到 HTML 的 disabled 属性。
+<strong>ng-show</strong> 指令隐藏或显示一个 HTML 元素。
+<strong>ng-hide</strong> 指令用于隐藏或显示 HTML 元素。
+<strong>ng-click</strong> 指令定义了 AngularJS 点击事件。
+<strong>ng-include</strong> 指令来包含 HTML 内容。</p> <h2 id="angularjs-过滤器"><a href="#angularjs-过滤器" class="header-anchor">#</a> AngularJS 过滤器</h2> <p>过滤器可以使用一个管道字符（|）添加到表达式和指令中。</p> <table><thead><tr><th>过滤器</th> <th>描述</th></tr></thead> <tbody><tr><td>currency</td> <td>格式化数字为货币格式。</td></tr> <tr><td>filter</td> <td>从数组项中选择一个子集。</td></tr> <tr><td>lowercase</td> <td>格式化字符串为小写。</td></tr> <tr><td>orderBy</td> <td>根据某个表达式排列数组。</td></tr> <tr><td>uppercase</td> <td>格式化字符串为大写。</td></tr></tbody></table> <h3 id="自定义过滤"><a href="#自定义过滤" class="header-anchor">#</a> 自定义过滤</h3> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">ng-app</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>myApp<span class="token punctuation">&quot;</span></span> <span class="token attr-name">ng-controller</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>myCtrl<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+
+
+姓名: {{ msg | reverse }}
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">var</span> app <span class="token operator">=</span> angular<span class="token punctuation">.</span><span class="token function">module</span><span class="token punctuation">(</span><span class="token string">'myApp'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+app<span class="token punctuation">.</span><span class="token function">controller</span><span class="token punctuation">(</span><span class="token string">'myCtrl'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">$scope</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    $scope<span class="token punctuation">.</span>msg <span class="token operator">=</span> <span class="token string">&quot;Runoob&quot;</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+app<span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span><span class="token string">'reverse'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">//可以注入依赖</span>
+    <span class="token keyword">return</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">text</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> text<span class="token punctuation">.</span><span class="token function">split</span><span class="token punctuation">(</span><span class="token string">&quot;&quot;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">reverse</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">&quot;&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h2 id="angularjs-服务-service"><a href="#angularjs-服务-service" class="header-anchor">#</a> AngularJS 服务(Service)</h2> <p><strong>$location</strong>  它可以返回当前页面的 URL 地址。
+<strong>$http</strong> 是 AngularJS 应用中最常用的服务。 服务向服务器发送请求，应用响应服务器传送过来的数据。(Axjx)
+<strong>$timeout</strong> 服务对应了 JS <strong>window.setTimeout</strong> 函数。(定时器)
+<strong>$interval</strong> 服务对应了 JS <strong>window.setInterval</strong> 函数。(访问在指定的周期(以毫秒计)来调用函数或计算表达式。)</p> <h3 id="创建自定义服务"><a href="#创建自定义服务" class="header-anchor">#</a> 创建自定义服务</h3> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">ng-app</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>myApp<span class="token punctuation">&quot;</span></span> <span class="token attr-name">ng-controller</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>myCtrl<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>在获取数组 [255, 251, 200] 值时使用过滤器:<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">ng-repeat</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>x in counts<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>{{x | myFormat}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>过滤器使用服务将10进制转换为16进制。<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">var</span> app <span class="token operator">=</span> angular<span class="token punctuation">.</span><span class="token function">module</span><span class="token punctuation">(</span><span class="token string">'myApp'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+app<span class="token punctuation">.</span><span class="token function">service</span><span class="token punctuation">(</span><span class="token string">'hexafy'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	<span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function-variable function">myFunc</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">x</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> x<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token number">16</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+app<span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span><span class="token string">'myFormat'</span><span class="token punctuation">,</span><span class="token punctuation">[</span><span class="token string">'hexafy'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">hexafy</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">x</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> hexafy<span class="token punctuation">.</span><span class="token function">myFunc</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+app<span class="token punctuation">.</span><span class="token function">controller</span><span class="token punctuation">(</span><span class="token string">'myCtrl'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">$scope</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    $scope<span class="token punctuation">.</span>counts <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">255</span><span class="token punctuation">,</span> <span class="token number">251</span><span class="token punctuation">,</span> <span class="token number">200</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+</code></pre></div><h2 id="angularjs-http-xmlhttprequest"><a href="#angularjs-http-xmlhttprequest" class="header-anchor">#</a> AngularJS Http (XMLHttpRequest)</h2> <div class="language-html extra-class"><pre class="language-html"><code>// 简单的 GET 请求，可以改为 POST
+$http({
+    method: 'GET',
+    url: '/someUrl'
+}).then(function successCallback(response) {
+        // 请求成功执行代码
+    }, function errorCallback(response) {
+        // 请求失败执行代码
+});
+
+POST 与 GET 简写方法格式：
+$http.get('/someUrl', config).then(successCallback, errorCallback);
+$http.post('/someUrl', data, config).then(successCallback, errorCallback);
+</code></pre></div><p>此外还有以下简写方法：</p> <ul><li>$http.get</li> <li>$http.head</li> <li>$http.post</li> <li>$http.put</li> <li>$http.delete</li> <li>$http.jsonp</li> <li>$http.patch</li></ul> <p>通用方法实例</p> <div class="language-html extra-class"><pre class="language-html"><code> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">ng-app</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>myApp<span class="token punctuation">&quot;</span></span> <span class="token attr-name">ng-controller</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>myCtrl<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>{{myHeader}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ol</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">ng-repeat</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span> x in myWelcome<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>{{x.name +','+x.userName}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ol</span><span class="token punctuation">&gt;</span></span>
+
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span> $http 服务向服务器请求信息，返回的值放入变量 &quot;myWelcome&quot; 中。<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+        <span class="token keyword">var</span> app <span class="token operator">=</span> angular<span class="token punctuation">.</span><span class="token function">module</span><span class="token punctuation">(</span><span class="token string">'myApp'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        app<span class="token punctuation">.</span><span class="token function">controller</span><span class="token punctuation">(</span><span class="token string">'myCtrl'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">$scope<span class="token punctuation">,</span> $http<span class="token punctuation">,</span> $timeout</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            $scope<span class="token punctuation">.</span>myHeader <span class="token operator">=</span> <span class="token string">&quot;Hello World!&quot;</span><span class="token punctuation">;</span>
+            $http<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">&quot;http://172.17.1.96:8131/quality/getQuality&quot;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">response</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>response<span class="token punctuation">.</span>data<span class="token punctuation">)</span>
+                $scope<span class="token punctuation">.</span>myWelcome <span class="token operator">=</span> response<span class="token punctuation">.</span>data<span class="token punctuation">;</span>
+            <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token function">$timeout</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                $scope<span class="token punctuation">.</span>myHeader <span class="token operator">=</span> <span class="token string">&quot;How are you today?&quot;</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">2000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>简写方法实例</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">ng-app</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>myApp<span class="token punctuation">&quot;</span></span> <span class="token attr-name">ng-controller</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>myCtrl<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ol</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">ng-repeat</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span> x in myWelcome<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>{{x.name +','+x.userName}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ol</span><span class="token punctuation">&gt;</span></span>
+
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span> $http 服务向服务器请求信息，返回的值放入变量 &quot;myWelcome&quot; 中。<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+        <span class="token keyword">var</span> app <span class="token operator">=</span> angular<span class="token punctuation">.</span><span class="token function">module</span><span class="token punctuation">(</span><span class="token string">'myApp'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        app<span class="token punctuation">.</span><span class="token function">controller</span><span class="token punctuation">(</span><span class="token string">'myCtrl'</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">$scope<span class="token punctuation">,</span> $http</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            $http<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">&quot;http://172.17.1.96:8131/quality/getQuality&quot;</span><span class="token punctuation">)</span>
+                <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">response</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> $scope<span class="token punctuation">.</span>myWelcome <span class="token operator">=</span> response<span class="token punctuation">.</span>data<span class="token punctuation">;</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h2 id="angularjs-模块"><a href="#angularjs-模块" class="header-anchor">#</a> AngularJS 模块</h2> <!----></div></section> <footer class="page-edit"><!----> <!----></footer> <!----> <div class="comments-wrapper"><!----></div> <ul class="side-bar sub-sidebar-wrapper" style="width:12rem;" data-v-ac050c62><li class="level-2" data-v-ac050c62><a href="/Blog/AngularJS%E5%9F%BA%E7%A4%8E.html#模板" class="sidebar-link reco-side-模板" data-v-ac050c62>模板</a></li><li class="level-2" data-v-ac050c62><a href="/Blog/AngularJS%E5%9F%BA%E7%A4%8E.html#常用指令" class="sidebar-link reco-side-常用指令" data-v-ac050c62>常用指令</a></li><li class="level-2" data-v-ac050c62><a href="/Blog/AngularJS%E5%9F%BA%E7%A4%8E.html#angularjs-过滤器" class="sidebar-link reco-side-angularjs-过滤器" data-v-ac050c62>AngularJS 过滤器</a></li><li class="level-3" data-v-ac050c62><a href="/Blog/AngularJS%E5%9F%BA%E7%A4%8E.html#自定义过滤" class="sidebar-link reco-side-自定义过滤" data-v-ac050c62>自定义过滤</a></li><li class="level-2" data-v-ac050c62><a href="/Blog/AngularJS%E5%9F%BA%E7%A4%8E.html#angularjs-服务-service" class="sidebar-link reco-side-angularjs-服务-service" data-v-ac050c62>AngularJS 服务(Service)</a></li><li class="level-3" data-v-ac050c62><a href="/Blog/AngularJS%E5%9F%BA%E7%A4%8E.html#创建自定义服务" class="sidebar-link reco-side-创建自定义服务" data-v-ac050c62>创建自定义服务</a></li><li class="level-2" data-v-ac050c62><a href="/Blog/AngularJS%E5%9F%BA%E7%A4%8E.html#angularjs-http-xmlhttprequest" class="sidebar-link reco-side-angularjs-http-xmlhttprequest" data-v-ac050c62>AngularJS Http (XMLHttpRequest)</a></li><li class="level-2" data-v-ac050c62><a href="/Blog/AngularJS%E5%9F%BA%E7%A4%8E.html#angularjs-模块" class="sidebar-link reco-side-angularjs-模块" data-v-ac050c62>AngularJS 模块</a></li></ul></main></div> <!----></div></div></div></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/Blog/assets/js/app.1db4b153.js" defer></script><script src="/Blog/assets/js/3.cdf51567.js" defer></script><script src="/Blog/assets/js/1.a1e88624.js" defer></script><script src="/Blog/assets/js/10.84400642.js" defer></script>
+  </body>
+</html>
